@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 640px) {
+.recent-works{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+}
+@media only screen and (max-width: 570px) {
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding-top: 30px;
+  }
+  .fames {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .recent-works{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .our-partner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  }
+@media only screen and (max-width: 480px) {
+.we-Offer{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+}
+}
+@media only screen and (max-width: 425px) {
+.footer{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+}
+}
+@media only screen and (max-width: 350px) {
+  .recent-works{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .our-partner{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  }
+@media only screen and (max-width: 310px) {
+.footer-tittle{
+  padding: 0px 10px;
+  line-height: 25px;
+}
+  }
